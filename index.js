@@ -5,6 +5,9 @@ const promptInstance = promptSync({
 	sigint: true // allows CTRL+C to exit the app
 });
 
+// some comment here
+// comment for naomi
+
 let userInput = null;
 let userEnteredNumber = false;
 do {
