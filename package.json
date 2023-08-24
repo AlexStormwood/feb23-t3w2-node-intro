@@ -8,7 +8,7 @@
     "someRandomCommand": "echo \" Hello world  \"",
     "start": "node index.js",
     "dev":"nodemon index.js",
-    "devPromptSync":"nodemon --no-stdin index.js"
+    "devPromptSync":"CHOKIDAR_USEPOLLING=true nodemon --no-stdin index.js"
   },
   "author": "",
   "license": "ISC",
